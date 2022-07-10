@@ -1,0 +1,16 @@
+for Ecah loop
+    1.https://www.geeksforgeeks.org/for-each-loop-in-java/
+    2.Itrator vs for each loop
+    https://www.geeksforgeeks.org/iterator-vs-foreach-in-java/
+    3.
+Collection
+    HashMap
+        1.
+    Comaparator
+        1.Inline Comparator vs custom Comparator
+        https://stackoverflow.com/questions/30995101/inline-comparator-vs-custom-comparator-in-java
+        2.
+    List
+        1.convert Int[] array to List
+        https://stackoverflow.com/questions/1073919/how-to-convert-int-into-listinteger-in-java#:~:text=int%20arr%5B%5D%20%3D%20%7B%201%2C,println(lst.
+                

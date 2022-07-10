@@ -1,0 +1,37 @@
+/*
+ *!KeyBoard Shortcuts
+ **shift+alt+up/down ->Duplicate line
+ **ctrl+b ->open/close sidebar
+ **ctrl+P ->command plate
+ **ctrl+x ->Delete line
+ **ctrl+ backspace -> Delete previous word
+ **crtl+f ->find word
+ **crtl+g ->navigate to specific  line
+ **ctrl+j+l -> join line
+ **alt+click -> to select multiple cursors
+ **ctrl+d -> to select multiple cursors of same word
+ */
+
+https://medium.com/javarevisited/20-array-coding-problems-and-questions-from-programming-interviews-869b475b9121
+https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+
+Minimum 30 question in each section.
+    A. 15 easy
+    B. 10 medium
+    C. 5 difficult
+
+Question left
+1.Minimum Jump in array
+2.find array is sorted or not    
+3.Merge two sorted array
+4.Frequency based sorting of array
+5.bracket balancing
+6.stack based questions
+
+Other questions
+    1.comparator vs comparable
+    2.print repeated word in string - very important to understand map
+    3.KMP algorithm
+    4.multiple input using     
+    5.Array input using BufferReader
+    6.Reversing string according to k    

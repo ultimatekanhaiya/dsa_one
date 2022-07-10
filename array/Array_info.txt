@@ -1,0 +1,21 @@
+An array is a collection of items of the same data type stored at contiguous memory locations.
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., 
+the memory location of the first element of the array (generally denoted by the name of the array).
+
+Insertion in Array
+
+Insertion in array can be of 4 types:
+    1.insertion in last when array is not full. O(1)
+    2.insertion in last when array is full. O(n)
+        we have to move all elements to new array
+    3.insertion in middle with replacement. O(1)
+    4.insertion in middle without replacement. O(n)
+        we have to move all elements to 1 position right.
+Properties:
+    1.store homogeneous data.
+    2.fixed in size.
+    3.Arrays allow random access of elements.
+    4.Arrays have better cache locality that can make a pretty big difference in performance.
+
+When to use:
+    1.when frequent operation is retrival operation and not insertion or deletion in middle.
