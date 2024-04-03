@@ -1,5 +1,3 @@
-package durga_sir;
-
 public class Pattern_printing4 {
 public static void main(String[] args) {
 	for(int i = 0; i < 5; i++)

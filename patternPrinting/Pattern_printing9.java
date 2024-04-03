@@ -1,5 +1,3 @@
-package durga_sir;
-
 public class Pattern_printing9 {
 public static void main(String[] args) {
 	System.out.println("0*");

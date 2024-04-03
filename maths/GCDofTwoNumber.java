@@ -1,5 +1,3 @@
-package revision;
-
 public class GCDofTwoNumber {
 	public static void main(String[] args) {
 		int a = 2;
