@@ -4,13 +4,12 @@ public class ReverseAlphabetOrder {
         reverseAlphabet(s);
     }
 
-    static void reverseAlphabet(String s){
+    static void reverseAlphabet(String s) {
         StringBuffer sb = new StringBuffer(s);
-        int n = 122;
-        for(int i = 0; i < s.length(); i++){
-            int k = n - s.charAt(i);
-            int l = 97 + k;
-            sb.setCharAt(i,(char)l);
+        for (int i = 0; i < s.length(); i++) {
+            int k = 'z' - s.charAt(i);
+            int l = 'a' + k;
+            sb.setCharAt(i, (char) l);
         }
         System.out.println(sb);
     }

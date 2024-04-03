@@ -3,6 +3,10 @@
  * An anagram is a word or phrase formed by rearranging the letters of a
  * different word or phrase, typically using all the original letters exactly
  * once
+ * char value of '0' = 48
+ * char value of space = 32
+ * char value of A = 65
+ * char value of a = 97
  */
 import java.util.*;
 

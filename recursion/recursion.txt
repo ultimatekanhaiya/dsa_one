@@ -11,22 +11,22 @@ printIncreasing(int n)
 
 printIncreasing(int 5)
 {
-    if(n == 0) return; -> X
+    if(5 == 0) return; -> X
     printIncreasing(4)
     {
-        if(n == 0) return; -> X
+        if(4 == 0) return; -> X
         printIncreasing(3);
         {
-            if(n == 0) return; -> X
+            if(3 == 0) return; -> X
             printIncreasing(2);
             {
-                if(n == 0) return; -> X
+                if(2 == 0) return; -> X
                 printIncreasing(1)
                 {
-                    if(n == 0) return; -> X
+                    if(1 == 0) return; -> X
                     printIncreasing(0);
                     {
-                        if(n == 0) return;
+                        if(0 == 0) return
                         printIncreasing(-1); -> X
                         System.out.println(0); -> X
                     }
@@ -40,3 +40,36 @@ printIncreasing(int 5)
     }
     System.out.println(5);
 }
+
+NOTE: Typical structure of Recursive functions
+
+    fun() {
+        base case
+        .....
+        Recursive call(i.e. call to fun())
+        with at least one change in parameter
+        .....
+    }
+
+NOTE: recursion is of two types
+    1.direct recursion (mostly used)
+
+    Example of direct recursion :
+
+    void fun1() {
+        fun1();
+    }
+
+    2. indirect recursion (not so common)
+
+    Example of indirect recursion :
+
+    void fun1() {
+        fun2();
+    }
+    void fun2() {
+        fun1();
+    }
+
+
+
