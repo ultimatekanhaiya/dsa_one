@@ -1,5 +1,3 @@
-package dsa;
-
 public class MatrixMultiplication {
 	public static void main(String[] args) {
 		int A[][] = { { 4, 8, 9 }, { 0, 2, 7 }, { 1, 6, 5 } };

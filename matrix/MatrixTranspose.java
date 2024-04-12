@@ -6,7 +6,6 @@
  * triangle only otherwise we will end up with same matrix without any change.
  * 
  */
-package dsa;
 
 public class MatrixTranspose {
 	public static void main(String[] args) {

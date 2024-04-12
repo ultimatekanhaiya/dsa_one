@@ -11,7 +11,6 @@
  * 
  * WE traverse from top->right->bottom->left
  */
-package dsa;
 
 public class SpiralMatrixTraversal {
 	public static void main(String[] args) {
